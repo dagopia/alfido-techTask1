@@ -433,64 +433,64 @@ align-items: center;
 
  }
 .grid-second {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap:0;
-    margin: 0 auto;
-    width:100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto; 
+}
 
-
-  }
-  .contentTwo{
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-  }
+.form-container {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
 
   
-        form {
-          background-color: rgba(255, 255, 255, 0.1);
-          padding: 20px;
-           
-        }
+}
+form {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  max-width: 620px;
+   
+}
 
-        label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: bold;
-            font-size: 16px;
-            color: white;
-        }
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
 
-        input,
-        textarea {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 16px;
-            box-sizing: border-box;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 
-        textarea {
-            resize: vertical;
-            height: 100px;
-        }
+textarea {
+    resize: vertical;
+    height: 100px;
+}
 
-        button {
-            background-color: #4caf50;
-            color: #fff;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
-        button:hover {
-            background-color: #45a049;
-        }
+button:hover {
+    background-color: #45a049;
+}
   /* Adjustments for smaller screens */
   @media only screen and (max-width: 768px) {
     .grid-second {
