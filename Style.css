@@ -47,8 +47,7 @@ background-size: cover;
     padding: 15px;
     color:#088155;
     text-decoration: none;
-    font-size: large;
-    font-weight: 700;
+    font-size: 16px;
   }
 
   section {
@@ -117,6 +116,7 @@ background-size: cover;
   a:hover {
     color:white;
     text-decoration: underline;
+
    
    
     
@@ -190,13 +190,12 @@ border-radius: 10px;
 padding: 5px;
 transition: transform 0.5s ease; /* Added transition property */
 
+
 }.animated-image:hover {
-transform: rotate(360deg); /* Rotate the image on hover */
+transform: rotate(5deg); /* Rotate the image on hover */
 }
 
-.animated-image:hover {
-animation: rotateHover 15s linear infinite; /* Rotate the image on hover using animation */
-}
+
 
 @keyframes rotateHover {
 0% {
@@ -249,6 +248,12 @@ footer {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     padding: 3px;
+    
+  }
+
+  .spaLOgo:hover{
+    color:#088155;
+    text-decoration: none;
     
   }
   .sec{
